@@ -1,0 +1,61 @@
+/* general styling */
+:root {
+  --lightest: #cad2c5;
+  --light: #84a98c;
+  --medium: #52796f;
+  --dark: #354f52;
+  --darkest: #2f3e46;
+}
+body {
+  color: var(--lightest);
+  background-color: var(--dark);
+}
+
+/* header/nav bar */
+header {
+  background-color: var(--medium);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: inline-block;
+  margin: 20px;
+}
+.nav-link {
+  color: var(--darkest);
+  text-decoration: none;
+  padding: 2px;
+}
+
+.nav-link:hover {
+  border: 2px solid var(--darkest);
+}
+
+/* main section (all other sections are within the main )*/
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* about me section, includes introduction, pfp, and about-me section */
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#hello {
+  text-align: center;
+}
+
+#pfp {
+  margin: 30px;
+  max-width: 300px;
+}
+
+.contact-img {
+  max-width: 50px;
+  max-height: 50px;
+}
