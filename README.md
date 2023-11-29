@@ -10,4 +10,10 @@ The nav bar at the top allows the user to navigate between sections of the page,
 
 ## Screenshot
 
+![deployed-ss](/images/deployed-portfolio.png)
+
 ## Link to deployed application
+
+https://haldenkavanagh.github.io/professional-portfolio-2/
+
+
